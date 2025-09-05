@@ -133,3 +133,67 @@ When prompted, confirm the deployment.
 - Follow AWS best practices for IAM permissions.
 
 ---
+
+## 📖 Quick Runbook
+
+**Purpose:**  
+This runbook provides the essential steps to operate, check, and maintain the NetWatch Agent monitoring system.
+
+---
+
+### 1. Deploy the Stack
+From the project root (where `app.py` is located):
+
+```powershell
+.venv\Scripts\activate
+cdk deploy
+```
+Confirm the deployment when prompted.
+
+---
+
+### 2. Update Monitored Sites
+1. Open `lambda\targets.json`.
+2. Add or remove URLs (must include `https://`).
+3. Save the file.
+4. Redeploy with:
+   ```powershell
+   cdk deploy
+   ```
+
+---
+
+### 3. Check Lambda Execution
+- Go to **AWS Console → Lambda → SiteProbeLambda** (or your function name).
+- View **Monitor → Logs** to see recent runs.
+- Use **Test** to trigger manually.
+
+---
+
+### 4. View Metrics & Dashboard
+- **CloudWatch → Metrics → NetWatchMetrics**  
+  - *Availability*: 1 = up, 0 = down  
+  - *Latency*: Response time in milliseconds
+- **CloudWatch → Dashboards → NetWatchMetrics** for graphs.
+
+---
+
+### 5. Troubleshooting
+| Issue | Action |
+|-------|--------|
+| No metrics in CloudWatch | Check Lambda logs for errors, confirm URLs are valid |
+| Lambda timeout | Increase timeout in `netwatch_agent_stack.py` |
+| Permission errors | Ensure Lambda role has `cloudwatch:PutMetricData` |
+
+---
+
+### 6. Maintenance
+- **Add/remove sites**: Edit `targets.json` and redeploy.
+- **Change schedule**: Update EventBridge rule in `netwatch_agent_stack.py`.
+- **Update dependencies**:  
+  ```powershell
+  pip install -r requirements.txt --upgrade
+  ```
+
+---
+
