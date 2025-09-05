@@ -1,7 +1,4 @@
-Alright Roshan — here’s a **clear, human‑readable README** for your project that’s simple enough for a new user to follow, but still meets the **rubric expectations** for clarity, installation/use instructions, and professionalism.  
-I’ve kept it **original**, avoided filler or AI‑style fluff, and made sure it’s easy to follow while covering the essentials.
 
----
 
 # NetWatch Agent – Website Monitoring with AWS CDK
 
