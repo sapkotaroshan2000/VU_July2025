@@ -133,7 +133,3 @@ When prompted, confirm the deployment.
 - Follow AWS best practices for IAM permissions.
 
 ---
-
-
-If you want, I can also prepare a **short “Runbook” section** for quick operational reference, which would help you score higher in the *Project Documentation* part of the rubric.  
-Do you want me to add that?
