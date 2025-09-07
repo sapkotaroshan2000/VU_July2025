@@ -134,7 +134,7 @@ When prompted, confirm the deployment.
 
 ---
 
-## 📖 Quick Runbook
+## Quick Runbook
 
 **Purpose:**  
 This runbook provides the essential steps to operate, check, and maintain the NetWatch Agent monitoring system.
@@ -196,4 +196,14 @@ Confirm the deployment when prompted.
   ```
 
 ---
+### 7. Some output screenshots
+- using the command cdk bootstrap
+<img width="1144" height="617" alt="image" src="https://github.com/user-attachments/assets/b5f4af8a-1721-49df-a8cc-a5c09a429818" />
+-using the command cdk synth
+<img width="1121" height="618" alt="image" src="https://github.com/user-attachments/assets/84db450d-0dbe-4b7b-b211-242be3f6bce1" />
+-using the command deploy
+<img width="1121" height="631" alt="image" src="https://github.com/user-attachments/assets/f6cf4e23-116f-4ee3-8f51-486ee0d964b4" />
+
+
+
 
