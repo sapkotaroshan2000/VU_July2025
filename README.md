@@ -204,6 +204,18 @@ Confirm the deployment when prompted.
 -using the command deploy
 <img width="1121" height="631" alt="image" src="https://github.com/user-attachments/assets/f6cf4e23-116f-4ee3-8f51-486ee0d964b4" />
 
+-After deploying is sucessfull we go to our aws console and we can see like below image:
+<img width="1102" height="549" alt="image" src="https://github.com/user-attachments/assets/c4fbc57c-b32d-4360-86c9-e8554e566901" />
+after that we have to click on the function and test it and if it get sucess it shows like this:
+<img width="1085" height="555" alt="image" src="https://github.com/user-attachments/assets/ad24f905-c31f-4357-82df-5a208436e54f" />
+<img width="1065" height="573" alt="image" src="https://github.com/user-attachments/assets/3cfa3c28-3fd2-4d16-bd0d-ac4bd3e6a394" />
+- Using the command destroy :
+  <img width="1134" height="631" alt="image" src="https://github.com/user-attachments/assets/e10781d8-5b16-4e71-add8-0251ce04796d" />
+
+
+
+
+
 
 
 
