@@ -17,6 +17,7 @@ The system includes:
 ## Features
 - Monitors any number of websites you define in a JSON file
 - Runs every 5 minutes by default
+- Email alert
 - Stores metrics in a dedicated CloudWatch namespace
 - Displays results in a CloudWatch dashboard
 - Works with Python 3.13 Lambda runtime
