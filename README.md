@@ -1,9 +1,9 @@
 
 
-# NetWatch Agent – Website Monitoring with AWS CDK
+# Site Watcher – Website Monitoring with AWS CDK
 
 ## Overview
-NetWatch Agent is a cloud‑based monitoring tool that checks the availability and response time of multiple websites.  
+Site Watcher is a cloud‑based monitoring tool that checks the availability and response time of multiple websites.  
 It runs automatically on a schedule using AWS Lambda and EventBridge, and sends custom metrics to Amazon CloudWatch for real‑time tracking.
 
 The system includes:
