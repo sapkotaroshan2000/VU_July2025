@@ -212,6 +212,16 @@ after that we have to click on the function and test it and if it get sucess it 
 - Using the command destroy :
   <img width="1134" height="631" alt="image" src="https://github.com/user-attachments/assets/e10781d8-5b16-4e71-add8-0251ce04796d" />
 
+-Deploy command 
+<img width="1221" height="631" alt="image" src="https://github.com/user-attachments/assets/5f901f4a-25e1-479e-bf4a-218d60fed8c9" />
+
+<img width="1295" height="638" alt="image" src="https://github.com/user-attachments/assets/b4bad63e-1386-4dc1-8730-8a5a5a434663" />
+
+- result in aws after deploy
+  <img width="1332" height="552" alt="image" src="https://github.com/user-attachments/assets/6952a0c6-d90c-47e1-a39e-48d14f10dc1b" />
+
+
+
 
 
 
