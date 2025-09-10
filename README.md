@@ -197,7 +197,7 @@ Confirm the deployment when prompted.
   ```
 
 ---
-### 7. Some output screenshots
+### 7. Testing and screenshots
 - using the command cdk bootstrap
 <img width="1144" height="617" alt="image" src="https://github.com/user-attachments/assets/b5f4af8a-1721-49df-a8cc-a5c09a429818" />
 -using the command cdk synth
