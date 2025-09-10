@@ -222,10 +222,14 @@ after that we have to click on the function and test it and if it get sucess it 
   <img width="1332" height="552" alt="image" src="https://github.com/user-attachments/assets/6952a0c6-d90c-47e1-a39e-48d14f10dc1b" />
 
 
+-SNS alert
+<img width="1339" height="582" alt="image" src="https://github.com/user-attachments/assets/1ee59780-6550-4c93-a786-68fd0797e65c" />
 
+-Email alert
+<img width="1293" height="598" alt="image" src="https://github.com/user-attachments/assets/6f0a373b-65c9-402e-9c1c-7319fe88c8ee" />
 
-
-
+-Dynamo db table
+<img width="1343" height="605" alt="image" src="https://github.com/user-attachments/assets/d3b76bc1-7c4c-4408-b794-ce99db05b22e" />
 
 
 
